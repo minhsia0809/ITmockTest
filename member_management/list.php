@@ -33,8 +33,7 @@
 
 		$amount=10;
 		$total=mysqli_num_rows($result);
-		pagination($_GET["page"], ceil($total/$amount));
-
+		pagination($_GET["page"], ceil($total/$amount)); //分頁設計
 		?>
 
 		<table align="center" cellspacing="0" cellpadding="5" border="0">
